@@ -40,7 +40,13 @@ const ProductsPage: FC<{}> = () => {
       <div className={styles.ProductsPageContainer}>
         <h3 className={styles.ProductsPageTitle}>LA GALERIE DE PRODUITS</h3>
         <ProductsGallery productList={currentData} isLoading={isLoading} />
-        <Pagination count={pageCount} defaultPage={0} boundaryCount={2} onChange={handlePageClick} />
+        <Pagination
+          count={pageCount}
+          defaultPage={0}
+          boundaryCount={2}
+          onChange={handlePageClick}
+          className={styles.Pagination}
+        />
       </div>
     </>
   );

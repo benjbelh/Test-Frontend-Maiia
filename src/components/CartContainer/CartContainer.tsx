@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeFromCart } from 'store/Cart/actions';
+import { decreaseCartQuantity, increaseCartQuantity, removeFromCart } from 'store/Cart/actions';
 import { cartListSelector } from 'store/Cart/selectors';
 import styles from './CartContainer.module.scss';
 import CartRow from './CartRow';
@@ -16,6 +16,20 @@ export const CartContainer: FunctionComponent<{}> = () => {
     [dispatch, removeFromCart],
   );
 
+  const onIncreaseQuantity = useCallback(
+    (productId: number) => {
+      dispatch(increaseCartQuantity(productId));
+    },
+    [dispatch, increaseCartQuantity],
+  );
+
+  const onDecreaseQuantity = useCallback(
+    (productId: number) => {
+      dispatch(decreaseCartQuantity(productId));
+    },
+    [dispatch, decreaseCartQuantity],
+  );
+
   return (
     <div className={styles.CartContainer}>
       {cartList.map(({ product, quantity }) => (
@@ -24,7 +38,9 @@ export const CartContainer: FunctionComponent<{}> = () => {
           imgPath={product.url}
           name={product.title}
           quantity={quantity}
-          onRemoveClicked={() => onRemoveClicked(product.id)}
+          onRemoveProduct={() => onRemoveClicked(product.id)}
+          onIncreaseQuantity={() => onIncreaseQuantity(product.id)}
+          onDecreaseQuantity={() => onDecreaseQuantity(product.id)}
         />
       ))}
     </div>

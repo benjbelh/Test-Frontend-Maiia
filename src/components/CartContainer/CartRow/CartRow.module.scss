@@ -1,6 +1,9 @@
 .CartRowContainer {
     display: flex;
     align-items: center;
+    padding: 8px 0;
+    height: 60px;
+    
 
     .ProductImg {
         width: 20%;
@@ -8,12 +11,26 @@
 
     .ProductInfo {
         padding-left: 20px;
+        flex-grow: 1;
+        font-family: 'Roboto';
+
         .ProductName {
             font-size: 14px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
         }
     
         .ProductQuantity {
             color: #757575;
+            display: flex;
+            align-items: center;
+
+            .QuantityIcon {
+                cursor: pointer;
+                padding-left: 8px;
+            }
         }
     } 
 }

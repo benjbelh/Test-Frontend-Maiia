@@ -1,4 +1,4 @@
-import { AppBar, Badge, Fade, IconButton, Paper, Popper, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Badge, ClickAwayListener, IconButton, Paper, Popper, Toolbar, Typography } from '@material-ui/core';
 import { ShoppingBasket } from '@material-ui/icons';
 import CartContainer from 'components/CartContainer';
 import React, { FunctionComponent } from 'react';
@@ -32,29 +32,12 @@ export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title =
             <ShoppingBasket />
           </Badge>
         </IconButton>
-        <Popper
-          placement="bottom-end"
-          disablePortal={false}
-          modifiers={{
-            flip: {
-              enabled: true,
-            },
-            preventOverflow: {
-              enabled: true,
-              boundariesElement: 'scrollParent',
-            },
-          }}
-          open={open}
-          anchorEl={anchorEl}
-          transition
-        >
-          {({ TransitionProps }) => (
-            <Fade {...TransitionProps} timeout={350}>
-              <Paper>
-                <CartContainer />
-              </Paper>
-            </Fade>
-          )}
+        <Popper placement="bottom-end" open={open} anchorEl={anchorEl}>
+          <ClickAwayListener onClickAway={() => setAnchorEl(null)}>
+            <Paper>
+              <CartContainer />
+            </Paper>
+          </ClickAwayListener>
         </Popper>
       </Toolbar>
     </AppBar>
