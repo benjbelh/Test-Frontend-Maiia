@@ -1,7 +1,8 @@
 import React, { useCallback, FC } from 'react';
-import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@material-ui/core';
+import { Card, CardActionArea, CardActions, CardContent, CardMedia, IconButton, Typography } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import styles from './ProductCard.module.scss';
+import { AddShoppingCart } from '@material-ui/icons';
 
 type ProductCardProps = {
   id: number;
@@ -30,10 +31,10 @@ const ProductCard: FC<ProductCardProps> = ({ id = 0, name = '', picturePath = ''
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={() => onProductSelected(id)}>
-          ADD PRODUCT
-        </Button>
+      <CardActions className={styles.cardActions}>
+        <IconButton color="primary" aria-label="add to shopping cart" onClick={() => onProductSelected(id)}>
+          <AddShoppingCart />
+        </IconButton>
       </CardActions>
     </Card>
   );

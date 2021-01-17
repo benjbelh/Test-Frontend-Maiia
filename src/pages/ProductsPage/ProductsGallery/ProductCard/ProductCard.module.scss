@@ -1,9 +1,16 @@
 .card {
     width: 300px;
     margin: 16px;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
 
     .media {
         height: 250px; 
+    }
+
+    .cardActions {
+        flex-grow: 1;
+        align-items: flex-end;
+        justify-content: flex-end;
     }
 }
