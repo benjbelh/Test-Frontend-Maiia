@@ -18,6 +18,15 @@ const initialState: ICartListState = {
 export default (state: ICartListState = initialState, action: ActionTypes): ICartListState => {
   switch (action.type) {
     case ADD_TO_CART:
+      const cartItemIndex = state.cartList.findIndex((cartItem) => cartItem.product.id == action.payload.product.id);
+      if (cartItemIndex > -1) {
+        const updatedCart = [...state.cartList];
+        updatedCart[cartItemIndex].quantity++;
+        return {
+          ...state,
+          cartList: updatedCart,
+        };
+      }
       return { ...state, cartList: [...state.cartList, action.payload] };
 
     case REMOVE_FROM_CART:

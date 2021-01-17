@@ -3,7 +3,7 @@ import { ShoppingBasket } from '@material-ui/icons';
 import CartContainer from 'components/CartContainer';
 import React, { FunctionComponent } from 'react';
 import { useSelector } from 'react-redux';
-import { cartItemNumberSelector, cartListSelector } from 'store/Cart/selectors';
+import { cartItemNumberSelector } from 'store/Cart/selectors';
 import styles from './ShoppingHeader.module.scss';
 
 type ShoppingHeaderProps = {
@@ -12,7 +12,6 @@ type ShoppingHeaderProps = {
 
 export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title = '' }) => {
   const cartItemNumber = useSelector(cartItemNumberSelector);
-  const cartList = useSelector(cartListSelector);
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
@@ -52,7 +51,7 @@ export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title =
           {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
               <Paper>
-                <CartContainer cartList={cartList} />
+                <CartContainer />
               </Paper>
             </Fade>
           )}

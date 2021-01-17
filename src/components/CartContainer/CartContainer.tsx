@@ -1,18 +1,34 @@
-import React, { FunctionComponent } from 'react';
-import { ICartItem } from 'store/Cart/types';
+import React, { FunctionComponent, useCallback } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeFromCart } from 'store/Cart/actions';
+import { cartListSelector } from 'store/Cart/selectors';
 import styles from './CartContainer.module.scss';
 import CartRow from './CartRow';
 
-type CartContainerProps = {
-  cartList?: ICartItem[];
-};
+export const CartContainer: FunctionComponent<{}> = () => {
+  const cartList = useSelector(cartListSelector);
+  const dispatch = useDispatch();
 
-export const CartContainer: FunctionComponent<CartContainerProps> = ({ cartList = [] }) => (
-  <div className={styles.CartContainer}>
-    {cartList.map(({ product, quantity }) => (
-      <CartRow key={product.id} imgPath={product.url} name={product.title} quantity={quantity} />
-    ))}
-  </div>
-);
+  const onRemoveClicked = useCallback(
+    (productId: number) => {
+      dispatch(removeFromCart(productId));
+    },
+    [dispatch, removeFromCart],
+  );
+
+  return (
+    <div className={styles.CartContainer}>
+      {cartList.map(({ product, quantity }) => (
+        <CartRow
+          key={product.id}
+          imgPath={product.url}
+          name={product.title}
+          quantity={quantity}
+          onRemoveClicked={() => onRemoveClicked(product.id)}
+        />
+      ))}
+    </div>
+  );
+};
 
 export default CartContainer;
