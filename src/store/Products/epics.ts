@@ -15,9 +15,11 @@ export const readProductListEpic: Epic<ActionTypes, ReadListSuccessAction | Read
     switchMap(() =>
       readProductList().pipe(
         map((response) => {
-          return readProductListSuccessfully(response);
+          return readProductListSuccessfully(response.data);
         }),
-        catchError((err) => of(readProductListError(err))),
+        catchError((err) => {
+          return of(readProductListError(err.message));
+        }),
       ),
     ),
   );

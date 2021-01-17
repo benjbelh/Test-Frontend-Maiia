@@ -1,8 +1,7 @@
 import { from } from 'rxjs';
-import { map } from 'rxjs/operators';
 import axios from 'axios';
 
-const readProductList = () =>
-  from(axios.get('https://jsonplaceholder.typicode.com/photos')).pipe(map(({ data }) => data));
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const readProductList = () => from(axios.get('https://jsonplaceholder.typicode.com/photos'));
 
 export { readProductList };

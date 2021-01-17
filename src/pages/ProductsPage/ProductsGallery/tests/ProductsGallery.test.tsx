@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import ProductsGallery from '../ProductsGallery';
-import productList from './productList.mock';
+import productList from '../../../../services/mockData/productList.mock';
 
 describe('ProductsGallery', () => {
   it('should renders correctly by default with skeleton', () => {
