@@ -1,0 +1,19 @@
+.CartRowContainer {
+    display: flex;
+    align-items: center;
+
+    .ProductImg {
+        width: 20%;
+    }
+
+    .ProductInfo {
+        padding-left: 20px;
+        .ProductName {
+            font-size: 14px;
+        }
+    
+        .ProductQuantity {
+            color: #757575;
+        }
+    } 
+}
