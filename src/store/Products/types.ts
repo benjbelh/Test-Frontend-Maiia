@@ -3,7 +3,7 @@ export const READ_LIST_SUCCESS = '[PRODUCTS] - Read List Success';
 export const READ_LIST_ERROR = '[PRODUCTS] - Read List Error';
 
 export type IProductList = {
-  id: string;
+  id: number;
   title: string;
   url: string;
 }[];

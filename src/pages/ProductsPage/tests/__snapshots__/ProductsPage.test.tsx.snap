@@ -1,0 +1,1327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsPage should renders correctly when data fetched 1`] = `
+<DocumentFragment>
+  <div
+    class="ProductsPageContainer"
+  >
+    <h3
+      class="ProductsPageTitle"
+    >
+      LA GALERIE DE PRODUITS
+    </h3>
+    <div
+      class="productList"
+      data-testid="product-list"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-1"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/92c952);"
+            title="accusamus beatae ad facilis cum similique qui sunt"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              accusamus beatae ad facilis cum similique qui sunt
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-2"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/771796);"
+            title="reprehenderit est deserunt velit ipsam"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              reprehenderit est deserunt velit ipsam
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-3"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/24f355);"
+            title="officia porro iure quia iusto qui ipsa ut modi"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              officia porro iure quia iusto qui ipsa ut modi
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-4"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/d32776);"
+            title="culpa odio esse rerum omnis laboriosam voluptate repudiandae"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              culpa odio esse rerum omnis laboriosam voluptate repudiandae
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-5"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/f66b97);"
+            title="natus nisi omnis corporis facere molestiae rerum in"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              natus nisi omnis corporis facere molestiae rerum in
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-6"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/56a8c2);"
+            title="accusamus ea aliquid et amet sequi nemo"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              accusamus ea aliquid et amet sequi nemo
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-7"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/b0f7cc);"
+            title="officia delectus consequatur vero aut veniam explicabo molestias"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              officia delectus consequatur vero aut veniam explicabo molestias
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-8"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/54176f);"
+            title="aut porro officiis laborum odit ea laudantium corporis"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              aut porro officiis laborum odit ea laudantium corporis
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-9"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/51aa97);"
+            title="qui eius qui autem sed"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              qui eius qui autem sed
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-10"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/810b14);"
+            title="beatae et provident et ut vel"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              beatae et provident et ut vel
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-11"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/1ee8a4);"
+            title="nihil at amet non hic quia qui"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              nihil at amet non hic quia qui
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="product-12"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <div
+            class="MuiCardMedia-root media"
+            style="background-image: url(https://via.placeholder.com/600/66b7d2);"
+            title="mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+            >
+              mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores
+            </h2>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              ADD PRODUCT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 1"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            1
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  )
+</DocumentFragment>
+`;
+
+exports[`ProductsPage should renders correctly while fetching 1`] = `
+<DocumentFragment>
+  <div
+    class="ProductsPageContainer"
+  >
+    <h3
+      class="ProductsPageTitle"
+    >
+      LA GALERIE DE PRODUITS
+    </h3>
+    <div
+      class="productList"
+      data-testid="product-list"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+            style="height: 250px;"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+              style="width: 60%;"
+            />
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+            style="width: 30%; height: 30px;"
+          />
+        </div>
+      </div>
+    </div>
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  )
+</DocumentFragment>
+`;

@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import styles from './ProductCard.module.scss';
 
 type ProductCardProps = {
-  id: string;
+  id: number;
   name: string;
   picturePath: string;
 };

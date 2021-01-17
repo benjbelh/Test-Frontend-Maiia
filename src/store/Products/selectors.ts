@@ -1,8 +1,8 @@
 import { createSelector } from 'reselect';
-import { IState } from 'store/reducers';
+import { IGlobalState } from 'store/reducers';
 import { IProductListState } from './reducer';
 
-const getProductList = (state: IState): IProductListState => state.products;
+const getProductList = (state: IGlobalState): IProductListState => state.products;
 
 export const productsSelector = createSelector(getProductList, ({ productList }) => productList);
 export const isLoadingSelector = createSelector(getProductList, ({ loading }) => loading);

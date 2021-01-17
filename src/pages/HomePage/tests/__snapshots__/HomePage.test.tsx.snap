@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="HomePageContainer"
+  >
+    <div
+      class="HomePageContent"
+    >
+      <div
+        class="HomePageTitle"
+      >
+        <p
+          class="HomePageTitle"
+        >
+          OFFRONS-NOUS
+          <br />
+          LES PRODUITS
+          <br />
+          DE NOS RÊVES
+        </p>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge"
+        data-testid="product-page-access"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          ACCEDER AU CATALOGUE
+          <span
+            class="MuiButton-endIcon MuiButton-iconSizeLarge"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

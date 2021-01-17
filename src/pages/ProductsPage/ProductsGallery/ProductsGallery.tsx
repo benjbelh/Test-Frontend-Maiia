@@ -2,12 +2,7 @@ import React, { FC } from 'react';
 import styles from './ProductsGallery.module.scss';
 import ProductCard from './ProductCard/ProductCard';
 import SkeletonCard from '../../../components/SkeletonCard';
-
-type IProduct = {
-  id: string;
-  title: string;
-  url: string;
-};
+import { IProduct } from 'store/Products/reducer';
 
 type ProductsGalleryProps = {
   productList: IProduct[] | null;

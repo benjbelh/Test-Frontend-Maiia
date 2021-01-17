@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import productsReducer, { IProductListState } from './Products/reducer';
 
-export interface IState {
+export interface IGlobalState {
   products: IProductListState;
 }
 

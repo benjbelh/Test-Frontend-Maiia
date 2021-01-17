@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonCard should renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <button
+      class="MuiButtonBase-root MuiCardActionArea-root"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+        style="height: 250px;"
+      />
+      <div
+        class="MuiCardContent-root"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        />
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+          style="width: 60%;"
+        />
+      </div>
+      <span
+        class="MuiCardActionArea-focusHighlight"
+      />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      class="MuiCardActions-root MuiCardActions-spacing"
+    >
+      <span
+        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+        style="width: 30%; height: 30px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

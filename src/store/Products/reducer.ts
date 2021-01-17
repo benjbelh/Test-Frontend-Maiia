@@ -1,7 +1,7 @@
 import { READ_LIST, READ_LIST_SUCCESS, READ_LIST_ERROR, ActionTypes } from './types';
 
 export interface IProduct {
-  id: string;
+  id: number;
   title: string;
   url: string;
 }
