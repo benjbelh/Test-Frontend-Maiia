@@ -1,0 +1,25 @@
+.productList {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/********** Tablet & Smartphone Responsive Grid **********/
+@media (max-width: 1400px) {
+    .productList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1055px) {
+    .productList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 710px) {
+    .productList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

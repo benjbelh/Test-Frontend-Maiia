@@ -1,0 +1,26 @@
+
+.HomePageContainer {
+    background: url(../../assets/img/e-commerce-backgroud.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    
+    .HomePageContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        max-width: 1400px;
+        margin: 0 auto;
+        height: 100%;
+        padding-right: 16px;
+
+        .HomePageTitle {
+            font-family: 'Concert One', cursive;
+            font-size: clamp(2.2rem,6vw,5rem);
+            text-align: right;
+        }
+    } 
+}
+
+

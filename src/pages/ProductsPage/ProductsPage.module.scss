@@ -1,0 +1,13 @@
+.ProductsPageContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .ProductsPageTitle{
+        font-family: 'Concert One', cursive;
+        font-size: clamp(2.2rem,6vw,4rem);
+    }
+}

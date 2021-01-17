@@ -1,0 +1,12 @@
+import React, { FunctionComponent } from "react";
+import styles from "./{{name}}.module.scss";
+
+type {{name}}Props = {
+  propName: string;
+};
+
+export const {{name}}: FunctionComponent<{{name}}Props> = ({
+  propName,
+}) => <div className={styles.{{name}}Container}></div>;
+
+export default {{name}};
