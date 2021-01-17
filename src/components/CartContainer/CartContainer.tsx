@@ -32,7 +32,22 @@ export const CartContainer: FunctionComponent<{}> = () => {
 
   return (
     <div className={styles.CartContainer}>
-      {cartList.map(({ product, quantity }) => (
+      {cartList?.length === 0 ? (
+        <div className={styles.NoProductMessage}>Add products to cart</div>
+      ) : (
+        cartList.map(({ product, quantity }) => (
+          <CartRow
+            key={product.id}
+            imgPath={product.url}
+            name={product.title}
+            quantity={quantity}
+            onRemoveProduct={() => onRemoveClicked(product.id)}
+            onIncreaseQuantity={() => onIncreaseQuantity(product.id)}
+            onDecreaseQuantity={() => onDecreaseQuantity(product.id)}
+          />
+        ))
+      )}
+      {/* {cartList.map(({ product, quantity }) => (
         <CartRow
           key={product.id}
           imgPath={product.url}
@@ -42,7 +57,7 @@ export const CartContainer: FunctionComponent<{}> = () => {
           onIncreaseQuantity={() => onIncreaseQuantity(product.id)}
           onDecreaseQuantity={() => onDecreaseQuantity(product.id)}
         />
-      ))}
+      ))} */}
     </div>
   );
 };
