@@ -6,10 +6,10 @@ import styles from './ProductCard.module.scss';
 type ProductCardProps = {
   id: number;
   name: string;
-  picturePath: string;
+  picturePath?: string;
 };
 
-const ProductCard: FC<ProductCardProps> = ({ id = '', name = '', picturePath = '' }) => {
+const ProductCard: FC<ProductCardProps> = ({ id = 0, name = '', picturePath = '' }) => {
   const history = useHistory();
 
   const onProductSelected = useCallback(
