@@ -1,6 +1,9 @@
 import { IGlobalState } from 'store/reducers';
 
 export const initialState: IGlobalState = {
+  cart: {
+    cartList: [],
+  },
   products: {
     productList: [
       {

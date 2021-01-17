@@ -6,6 +6,7 @@ import ProductsGallery from './ProductsGallery';
 import styles from './ProductsPage.module.scss';
 import { IProductList } from 'store/Products/types';
 import { Pagination } from '@material-ui/lab';
+import ShoppingHeader from 'components/ShoppingHeader';
 
 const ProductsPage: FC<{}> = () => {
   const dispatch = useDispatch();
@@ -34,11 +35,14 @@ const ProductsPage: FC<{}> = () => {
   };
 
   return (
-    <div className={styles.ProductsPageContainer}>
-      <h3 className={styles.ProductsPageTitle}>LA GALERIE DE PRODUITS</h3>
-      <ProductsGallery productList={currentData} isLoading={isLoading} />
-      <Pagination count={pageCount} defaultPage={0} boundaryCount={2} onChange={handlePageClick} />
-    </div>
+    <>
+      <ShoppingHeader title="E-Commerce Shop" />
+      <div className={styles.ProductsPageContainer}>
+        <h3 className={styles.ProductsPageTitle}>LA GALERIE DE PRODUITS</h3>
+        <ProductsGallery productList={currentData} isLoading={isLoading} />
+        <Pagination count={pageCount} defaultPage={0} boundaryCount={2} onChange={handlePageClick} />
+      </div>
+    </>
   );
 };
 
