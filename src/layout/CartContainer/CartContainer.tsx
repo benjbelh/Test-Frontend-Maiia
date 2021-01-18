@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { decreaseCartQuantity, increaseCartQuantity, removeFromCart } from 'store/Cart/actions';
 import { cartListSelector } from 'store/Cart/selectors';
 import styles from './CartContainer.module.scss';
-import CartRow from '../../../components/CartRow';
+import CartRow from '../../components/CartRow';
 
 export const CartContainer: FunctionComponent<{}> = () => {
   const cartList = useSelector(cartListSelector);

@@ -1,4 +1,4 @@
-context('Cat list Page', () => {
+context('Product list Page', () => {
   beforeEach(() => {
     cy.server();
     cy.fixture('cat-list.json').then((productList) => {

@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import CartContainer from '../CartContainer';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { initialState } from '../../../../store/initStore.mock';
+import { initialState } from '../../../store/initStore.mock';
 
 describe('CartContainer', () => {
   it('should renders correctly', () => {

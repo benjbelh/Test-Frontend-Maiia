@@ -1,6 +1,6 @@
 import { AppBar, Badge, ClickAwayListener, IconButton, Paper, Popper, Toolbar, Typography } from '@material-ui/core';
 import { ShoppingBasket } from '@material-ui/icons';
-import CartContainer from 'layout/ShoppingHeader/CartContainer';
+import CartContainer from 'layout/CartContainer';
 import React, { FunctionComponent } from 'react';
 import { useSelector } from 'react-redux';
 import { cartItemNumberSelector } from 'store/Cart/selectors';
