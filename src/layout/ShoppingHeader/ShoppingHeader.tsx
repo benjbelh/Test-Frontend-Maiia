@@ -27,7 +27,7 @@ export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title =
         <Typography variant="h6" className={styles.ShoppingHeaderTitle}>
           {title}
         </Typography>
-        <IconButton aria-label="shooping cart" color="inherit" onClick={handleClick}>
+        <IconButton aria-label="shopping cart" color="inherit" onClick={handleClick} data-testid="shopping-cart">
           <Badge badgeContent={cartItemNumber} color="secondary">
             <ShoppingBasket />
           </Badge>

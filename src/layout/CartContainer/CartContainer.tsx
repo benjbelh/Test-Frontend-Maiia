@@ -31,9 +31,11 @@ export const CartContainer: FunctionComponent<{}> = () => {
   );
 
   return (
-    <div className={styles.CartContainer}>
+    <div className={styles.CartContainer} data-testid="cart-container">
       {cartList?.length === 0 ? (
-        <div className={styles.NoProductMessage}>Add products to cart</div>
+        <div className={styles.EmptyCartMessage} data-testid="empty-cart-message">
+          Add products to cart
+        </div>
       ) : (
         cartList.map(({ product, quantity }) => (
           <CartRow

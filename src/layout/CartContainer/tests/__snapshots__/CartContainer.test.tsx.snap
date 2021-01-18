@@ -4,9 +4,11 @@ exports[`CartContainer should renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="CartContainer"
+    data-testid="cart-container"
   >
     <div
-      class="NoProductMessage"
+      class="EmptyCartMessage"
+      data-testid="empty-cart-message"
     >
       Add products to cart
     </div>

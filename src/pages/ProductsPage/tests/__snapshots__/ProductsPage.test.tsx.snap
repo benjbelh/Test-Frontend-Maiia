@@ -14,8 +14,9 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
         E-Commerce Shop
       </h6>
       <button
-        aria-label="shooping cart"
+        aria-label="shopping cart"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+        data-testid="shopping-cart"
         tabindex="0"
         type="button"
       >
@@ -96,6 +97,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-1-cart-button"
             tabindex="0"
             type="button"
           >
@@ -155,6 +157,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-2-cart-button"
             tabindex="0"
             type="button"
           >
@@ -214,6 +217,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-3-cart-button"
             tabindex="0"
             type="button"
           >
@@ -273,6 +277,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-4-cart-button"
             tabindex="0"
             type="button"
           >
@@ -332,6 +337,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-5-cart-button"
             tabindex="0"
             type="button"
           >
@@ -391,6 +397,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-6-cart-button"
             tabindex="0"
             type="button"
           >
@@ -450,6 +457,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-7-cart-button"
             tabindex="0"
             type="button"
           >
@@ -509,6 +517,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-8-cart-button"
             tabindex="0"
             type="button"
           >
@@ -568,6 +577,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-9-cart-button"
             tabindex="0"
             type="button"
           >
@@ -627,6 +637,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-10-cart-button"
             tabindex="0"
             type="button"
           >
@@ -686,6 +697,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-11-cart-button"
             tabindex="0"
             type="button"
           >
@@ -745,6 +757,7 @@ exports[`ProductsPage should renders correctly when data fetched 1`] = `
           <button
             aria-label="add to shopping cart"
             class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+            data-testid="product-12-cart-button"
             tabindex="0"
             type="button"
           >
@@ -852,8 +865,9 @@ exports[`ProductsPage should renders correctly while fetching 1`] = `
         E-Commerce Shop
       </h6>
       <button
-        aria-label="shooping cart"
+        aria-label="shopping cart"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+        data-testid="shopping-cart"
         tabindex="0"
         type="button"
       >

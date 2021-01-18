@@ -28,16 +28,28 @@ export const CartRow: FunctionComponent<CartRowProps> = ({
       <div className={styles.ProductInfo}>
         <div className={styles.ProductName}>{name}</div>
         <div className={styles.ProductQuantity}>
-          Quantity: {quantity} <AddBox color="action" onClick={onIncreaseQuantity} className={styles.QuantityIcon} />
+          Quantity: {quantity}{' '}
+          <AddBox
+            color="action"
+            onClick={onIncreaseQuantity}
+            className={styles.QuantityIcon}
+            data-testid="increase-quantity-button"
+          />
           <IndeterminateCheckBox
             color={decreaseButtonColor}
             onClick={onDecreaseQuantity}
             className={styles.QuantityIcon}
+            data-testid="decrease-quantity-button"
           />
         </div>
       </div>
 
-      <IconButton color="primary" aria-label="remove from shopping cart" onClick={onRemoveProduct}>
+      <IconButton
+        color="primary"
+        aria-label="remove from shopping cart"
+        onClick={onRemoveProduct}
+        data-testid="remove-from-cart-button"
+      >
         <RemoveCircleOutline />
       </IconButton>
     </div>

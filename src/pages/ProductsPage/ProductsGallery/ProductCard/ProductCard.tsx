@@ -29,7 +29,12 @@ const ProductCard: FC<ProductCardProps> = ({ id = 0, name = '', picturePath = ''
         </CardContent>
       </CardActionArea>
       <CardActions className={styles.cardActions}>
-        <IconButton color="primary" aria-label="add to shopping cart" onClick={onProductSelected}>
+        <IconButton
+          color="primary"
+          aria-label="add to shopping cart"
+          onClick={onProductSelected}
+          data-testid={`product-${id}-cart-button`}
+        >
           <AddShoppingCart />
         </IconButton>
       </CardActions>

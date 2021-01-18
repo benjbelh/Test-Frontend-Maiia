@@ -12,8 +12,9 @@ exports[`ShoppingHeader should renders correctly 1`] = `
         class="MuiTypography-root ShoppingHeaderTitle MuiTypography-h6"
       />
       <button
-        aria-label="shooping cart"
+        aria-label="shopping cart"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+        data-testid="shopping-cart"
         tabindex="0"
         type="button"
       >

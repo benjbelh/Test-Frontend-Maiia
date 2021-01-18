@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import {
   IProductList,
   READ_LIST,
@@ -17,7 +18,10 @@ export const readProductListSuccessfully = (productList: IProductList): ReadList
   payload: productList,
 });
 
-export const readProductListError = (errorResponse: string): ReadListErrorAction => ({
-  type: READ_LIST_ERROR,
-  payload: errorResponse,
-});
+export const readProductListError = (errorResponse: string): ReadListErrorAction => {
+  toast.error(errorResponse);
+  return {
+    type: READ_LIST_ERROR,
+    payload: errorResponse,
+  };
+};

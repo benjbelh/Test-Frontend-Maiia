@@ -38,6 +38,7 @@ exports[`ProductCard should renders correctly with card props 1`] = `
       <button
         aria-label="add to shopping cart"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+        data-testid="product-1-cart-button"
         tabindex="0"
         type="button"
       >

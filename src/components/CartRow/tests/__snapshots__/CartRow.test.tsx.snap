@@ -25,6 +25,7 @@ exports[`CartRow should renders correctly with properties 1`] = `
         <svg
           aria-hidden="true"
           class="MuiSvgIcon-root QuantityIcon MuiSvgIcon-colorAction"
+          data-testid="increase-quantity-button"
           focusable="false"
           viewBox="0 0 24 24"
         >
@@ -35,6 +36,7 @@ exports[`CartRow should renders correctly with properties 1`] = `
         <svg
           aria-hidden="true"
           class="MuiSvgIcon-root QuantityIcon MuiSvgIcon-colorDisabled"
+          data-testid="decrease-quantity-button"
           focusable="false"
           viewBox="0 0 24 24"
         >
@@ -47,6 +49,7 @@ exports[`CartRow should renders correctly with properties 1`] = `
     <button
       aria-label="remove from shopping cart"
       class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+      data-testid="remove-from-cart-button"
       tabindex="0"
       type="button"
     >
