@@ -21,7 +21,7 @@ exports[`CartRow should renders correctly with properties 1`] = `
       <div
         class="ProductQuantity"
       >
-        Quantity: 0 
+        Quantity: 0
         <svg
           aria-hidden="true"
           class="MuiSvgIcon-root QuantityIcon MuiSvgIcon-colorAction"

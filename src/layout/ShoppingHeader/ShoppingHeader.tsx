@@ -1,7 +1,7 @@
 import { AppBar, Badge, ClickAwayListener, IconButton, Paper, Popper, Toolbar, Typography } from '@material-ui/core';
 import { ShoppingBasket } from '@material-ui/icons';
 import CartContainer from 'layout/CartContainer';
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useCallback, useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { cartItemNumberSelector } from 'store/Cart/selectors';
 import styles from './ShoppingHeader.module.scss';
@@ -15,11 +15,14 @@ export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title =
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(anchorEl ? null : event.currentTarget);
-  };
+  const handleClick = useCallback(
+    (event: React.MouseEvent<HTMLElement>) => {
+      setAnchorEl(anchorEl ? null : event.currentTarget);
+    },
+    [anchorEl],
+  );
 
-  const open = Boolean(anchorEl);
+  const popperOpened = useMemo(() => Boolean(anchorEl), [anchorEl]);
 
   return (
     <AppBar position="sticky">
@@ -32,7 +35,7 @@ export const ShoppingHeader: FunctionComponent<ShoppingHeaderProps> = ({ title =
             <ShoppingBasket />
           </Badge>
         </IconButton>
-        <Popper placement="bottom-end" open={open} anchorEl={anchorEl}>
+        <Popper placement="bottom-end" open={popperOpened} anchorEl={anchorEl}>
           <ClickAwayListener onClickAway={() => setAnchorEl(null)}>
             <Paper>
               <CartContainer />

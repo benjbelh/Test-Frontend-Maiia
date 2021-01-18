@@ -1,6 +1,6 @@
+import { IProduct } from 'shared/models';
 import {
   ADD_TO_CART,
-  IProduct,
   AddToCartAction,
   RemoveFromCartAction,
   IncreaseCartQuantityAction,

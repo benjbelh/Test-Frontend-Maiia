@@ -1,12 +1,12 @@
-import React, { ChangeEvent, FC, useEffect, useState } from 'react';
+import React, { ChangeEvent, FC, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { readProductList } from 'store/Products/actions';
 import { isLoadingSelector, productsSelector } from 'store/Products/selectors';
 import ProductsGallery from './ProductsGallery';
 import styles from './ProductsPage.module.scss';
-import { IProductList } from 'store/Products/types';
 import { Pagination } from '@material-ui/lab';
 import ShoppingHeader from 'layout/ShoppingHeader';
+import { IProduct } from 'shared/models';
 
 const ProductsPage: FC<{}> = () => {
   const dispatch = useDispatch();
@@ -22,17 +22,20 @@ const ProductsPage: FC<{}> = () => {
 
   const [pageCount, setPageCount] = useState(0);
   const [offset, setOffset] = useState(0);
-  const [currentData, setCurrentData] = useState<IProductList | null>(null);
+  const [currentData, setCurrentData] = useState<IProduct[] | null>(null);
 
   useEffect(() => {
     setPageCount(Math.ceil(productList.length / numberPerPage));
     setCurrentData(productList.slice(offset, offset + numberPerPage));
   }, [productList, numberPerPage, offset]);
 
-  const handlePageClick = (event: ChangeEvent<unknown>, value: number) => {
-    const offset = (value - 1) * numberPerPage;
-    setOffset(offset);
-  };
+  const handlePageClick = useCallback(
+    (event: ChangeEvent<unknown>, value: number) => {
+      const offset = (value - 1) * numberPerPage;
+      setOffset(offset);
+    },
+    [numberPerPage],
+  );
 
   return (
     <>

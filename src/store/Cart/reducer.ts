@@ -1,11 +1,5 @@
-import {
-  ActionTypes,
-  ADD_TO_CART,
-  DECREASE_CART_QUANTITY,
-  ICartItem,
-  INCREASE_CART_QUANTITY,
-  REMOVE_FROM_CART,
-} from './types';
+import { ICartItem } from 'shared/models';
+import { ActionTypes, ADD_TO_CART, DECREASE_CART_QUANTITY, INCREASE_CART_QUANTITY, REMOVE_FROM_CART } from './types';
 
 export interface ICartListState {
   cartList: ICartItem[];

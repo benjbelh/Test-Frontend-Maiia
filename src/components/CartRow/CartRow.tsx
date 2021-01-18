@@ -21,6 +21,7 @@ export const CartRow: FunctionComponent<CartRowProps> = ({
   onRemoveProduct = () => null,
 }) => {
   const decreaseButtonColor = useMemo(() => (quantity > 1 ? 'action' : 'disabled'), [quantity]);
+
   return (
     <div className={styles.CartRowContainer}>
       <img src={imgPath} alt="cart-row-img" className={styles.ProductImg} />
@@ -28,7 +29,7 @@ export const CartRow: FunctionComponent<CartRowProps> = ({
       <div className={styles.ProductInfo}>
         <div className={styles.ProductName}>{name}</div>
         <div className={styles.ProductQuantity}>
-          Quantity: {quantity}{' '}
+          Quantity: {quantity}
           <AddBox
             color="action"
             onClick={onIncreaseQuantity}

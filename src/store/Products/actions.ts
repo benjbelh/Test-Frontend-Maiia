@@ -1,6 +1,6 @@
+import { IProduct } from 'shared/models';
 import { toast } from 'react-toastify';
 import {
-  IProductList,
   READ_LIST,
   READ_LIST_SUCCESS,
   READ_LIST_ERROR,
@@ -13,7 +13,7 @@ export const readProductList = (): ReadListAction => ({
   type: READ_LIST,
 });
 
-export const readProductListSuccessfully = (productList: IProductList): ReadListSuccessAction => ({
+export const readProductListSuccessfully = (productList: IProduct[]): ReadListSuccessAction => ({
   type: READ_LIST_SUCCESS,
   payload: productList,
 });

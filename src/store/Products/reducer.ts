@@ -1,10 +1,5 @@
+import { IProduct } from 'shared/models';
 import { READ_LIST, READ_LIST_SUCCESS, READ_LIST_ERROR, ActionTypes } from './types';
-
-export interface IProduct {
-  id: number;
-  title: string;
-  url: string;
-}
 
 export interface IProductListState {
   productList: IProduct[];

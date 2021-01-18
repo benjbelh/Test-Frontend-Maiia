@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import styles from './ProductsGallery.module.scss';
 import ProductCard from './ProductCard/ProductCard';
-import { IProduct } from 'store/Products/reducer';
 import SkeletonCardList from 'components/SkeletonCardList';
+import { IProduct } from 'shared/models';
 
 type ProductsGalleryProps = {
   productList?: IProduct[] | null;

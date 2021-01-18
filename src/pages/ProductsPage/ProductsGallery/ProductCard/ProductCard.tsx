@@ -16,11 +16,11 @@ const ProductCard: FC<ProductCardProps> = ({ id = 0, name = '', picturePath = ''
 
   const onProductSelected = useCallback(() => {
     dispatch(addToCart({ id, title: name, url: picturePath }));
-  }, []);
+  }, [dispatch, addToCart]);
 
   return (
     <Card className={styles.card} data-testid={`product-${id}`}>
-      <CardActionArea onClick={() => onProductSelected}>
+      <CardActionArea>
         {picturePath && <CardMedia className={styles.media} image={picturePath} title={name} />}
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

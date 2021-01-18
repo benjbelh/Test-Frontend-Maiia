@@ -1,18 +1,9 @@
+import { ICartItem } from 'shared/models';
+
 export const ADD_TO_CART = '[CART] - ADD PRODUCT';
 export const REMOVE_FROM_CART = '[CART] - REMOVE PRODUCT';
 export const INCREASE_CART_QUANTITY = '[CART] - INCREASE QUANTITY';
 export const DECREASE_CART_QUANTITY = '[CART] - DECREASE QUANTITY';
-
-export type IProduct = {
-  id: number;
-  title: string;
-  url: string;
-};
-
-export type ICartItem = {
-  product: IProduct;
-  quantity: number;
-};
 
 export interface AddToCartAction {
   type: typeof ADD_TO_CART;
