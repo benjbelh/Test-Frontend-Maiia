@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CartRow should renders correctly 1`] = `
+exports[`CartRow should renders correctly with properties 1`] = `
 <DocumentFragment>
   <div
     class="CartRowContainer"
@@ -8,14 +8,16 @@ exports[`CartRow should renders correctly 1`] = `
     <img
       alt="cart-row-img"
       class="ProductImg"
-      src=""
+      src="https://test.com/img.jpg"
     />
     <div
       class="ProductInfo"
     >
       <div
         class="ProductName"
-      />
+      >
+        Item 1
+      </div>
       <div
         class="ProductQuantity"
       >

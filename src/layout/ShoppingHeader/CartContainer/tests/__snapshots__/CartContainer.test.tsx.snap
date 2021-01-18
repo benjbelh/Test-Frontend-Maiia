@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartContainer should renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="CartContainer"
+  >
+    <div
+      class="NoProductMessage"
+    >
+      Add products to cart
+    </div>
+  </div>
+</DocumentFragment>
+`;

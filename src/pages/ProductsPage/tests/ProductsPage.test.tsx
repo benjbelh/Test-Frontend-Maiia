@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import ProductsPage from '../ProductsPage';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { initialState } from './initStore';
+import { initialState } from '../../../store/initStore.mock';
 
 describe('ProductsPage', () => {
   it('should renders correctly when data fetched', () => {
@@ -21,6 +21,7 @@ describe('ProductsPage', () => {
   it('should renders correctly while fetching', () => {
     const mockStore = configureStore();
     const store = mockStore({
+      ...initialState,
       products: {
         productList: [],
         loading: true,

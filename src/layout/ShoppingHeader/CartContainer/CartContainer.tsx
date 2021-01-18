@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { decreaseCartQuantity, increaseCartQuantity, removeFromCart } from 'store/Cart/actions';
 import { cartListSelector } from 'store/Cart/selectors';
 import styles from './CartContainer.module.scss';
-import CartRow from './CartRow';
+import CartRow from '../../../components/CartRow';
 
 export const CartContainer: FunctionComponent<{}> = () => {
   const cartList = useSelector(cartListSelector);
@@ -47,17 +47,6 @@ export const CartContainer: FunctionComponent<{}> = () => {
           />
         ))
       )}
-      {/* {cartList.map(({ product, quantity }) => (
-        <CartRow
-          key={product.id}
-          imgPath={product.url}
-          name={product.title}
-          quantity={quantity}
-          onRemoveProduct={() => onRemoveClicked(product.id)}
-          onIncreaseQuantity={() => onIncreaseQuantity(product.id)}
-          onDecreaseQuantity={() => onDecreaseQuantity(product.id)}
-        />
-      ))} */}
     </div>
   );
 };

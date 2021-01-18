@@ -1,18 +1,17 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import ProductCard from '../ProductCard';
-import { Provider } from 'react-redux';
+import ShoppingHeader from '../ShoppingHeader';
 import configureStore from 'redux-mock-store';
-import { initialState } from '../../../../../store/initStore.mock';
+import { Provider } from 'react-redux';
+import { initialState } from '../../../store/initStore.mock';
 
-describe('ProductCard', () => {
-  it('should renders correctly with card props', () => {
+describe('ShoppingHeader', () => {
+  it('should renders correctly', () => {
     const mockStore = configureStore();
     const store = mockStore(initialState);
-
     const { asFragment } = render(
       <Provider store={store}>
-        <ProductCard id={1} name="Product Name" picturePath="https://test.com/img.jpg" />
+        <ShoppingHeader title="" />
       </Provider>,
     );
     expect(asFragment()).toMatchSnapshot();
